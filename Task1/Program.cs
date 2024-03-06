@@ -12,7 +12,7 @@ namespace Task1
         static void Main(string[] args)
         {
             string folderPath = @"D:\UNIK\les8_task1";
-            string[] folders = Directory.GetFiles(folderPath, "*",SearchOption.AllDirectories);
+            string[] folders = Directory.GetFiles(folderPath, "*", SearchOption.AllDirectories);
             foreach(string s in folders) {
                 Console.WriteLine(s);
             }
